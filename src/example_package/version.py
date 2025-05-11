@@ -2,7 +2,7 @@ try:
     try:
         from ._dev_version import version
     except ImportError:
-        from .version import version
+        from ._version import version
 except Exception:
     import warnings
 
