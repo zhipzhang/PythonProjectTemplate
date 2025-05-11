@@ -1,7 +1,7 @@
 
 # Specify the build system requirements and backend
 [build-system]
-requires = ["setuptools", "setuptools_scm"]
+requires = ["setuptools", "setuptools_scm>=8"]
 build-backend = "setuptools.build_meta"
 
 # Specify the package metadata
@@ -18,3 +18,5 @@ where = ["src"]
 include = ["example_package*"]
 exclude = ["example_package.tests*"] # Exclude test directory when installing
 
+[tool.setuptools_scm]
+write_to = "src/example_package/_version.py"
