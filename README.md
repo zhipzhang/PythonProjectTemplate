@@ -5,10 +5,10 @@ This template project demonstrates how to create Python packages using [Setuptoo
 ## Project Structure
 
 This repository includes:
-- Source code in `/src`
-- `test` parts
-- Documentation and API references
-- CI/CD pipeline configuration
 - GitHub repository setup
+- Source code in `/src`
+- Test suite in `/tests` directory
+- Documentation in `/docs` including API reference and usage guides
+- CI/CD pipeline configuration
 
 Use this template to quickly scaffold your Python package projects with modern development practices.
