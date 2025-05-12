@@ -7,6 +7,6 @@
 :maxdepth: 1
 :hidden:
 
-CreatePackage
+CreateYourOwnPackage
 autoapi/index
 ```

@@ -12,3 +12,5 @@ This repository includes:
 - CI/CD pipeline configuration
 
 Use this template to quickly scaffold your Python package projects with modern development practices.
+
+The version of this package is automatically updated with the git tag. After creating a new tag like `v0.0.1`, the `package._version_ will automatically be updated to `0.0.1`. This is done by using the `setuptools_scm` package. 
