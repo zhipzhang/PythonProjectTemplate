@@ -6,7 +6,7 @@ This template project demonstrates how to create Python packages using [Setuptoo
 
 This repository includes:
 - Source code in `/src`
-- Unit tests and test automation
+- `test` parts
 - Documentation and API references
 - CI/CD pipeline configuration
 - GitHub repository setup
